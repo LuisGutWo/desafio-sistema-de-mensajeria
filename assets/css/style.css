@@ -16,28 +16,28 @@ body {
 .aside-menu {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
   background-color: white;
   width: 350px;
   min-height: 100vh;
   margin: 0;
+  flex: 0 0 1px;
 }
 .contact-status {
   display: flex;
-  justify-content: space-around;
+  justify-items: center;
   align-items: center;
-  border: solid 1px #828485;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border-style: groove;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 40px;
+
 }
 .contact-title {
   display: flex;
   justify-content: space-around;
 }
-.contact {
-  display: flex;
-  justify-content: space-around;
-}
+
 .contact-data {
   display: flex;
   flex-direction: column;
@@ -45,24 +45,27 @@ body {
   padding: 0 18px;
 }
 .contact-data h3 {
+  font-size: 1.2rem;
   margin: 0;
   padding: 2px;
 }
 .contact-data p {
+  font-size: 0.9rem;
   margin: 0;
   padding: 5px;
   color: #828485;
 }
 
 .contact-status img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-top: 7px;
+  
 }
 .contact-title img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 }
 .status-icon {
@@ -78,12 +81,12 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid 1px #828485;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  border-style: groove;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .button-section .button {
-  background-color: #A491D2;
+  background-color: #a491d2;
   border: none;
   color: white;
   padding: 15px 50px;
